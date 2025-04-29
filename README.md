@@ -1,133 +1,179 @@
 
 # 🍽️ RestoManager - TP5 ASP.NET Core MVC
 
-A web application to manage restaurants, proprietors, and customer reviews.  
-This project is built as part of **TP5: ASP.NET Core MVC with Fluent API and Code First** development.
+A restaurant management web app built with **ASP.NET Core MVC**, using **Code First + Fluent API** and styled with **Bootstrap (Flatly Blue Theme)**.
 
-> 💡 Created using Visual Studio 2022, .NET 8.0, Entity Framework Core, and Bootstrap (Flatly Blue Theme).
-
----
-
-## 🎯 Features
-
-✅ Code First with Fluent API  
-✅ Database migrations using Entity Framework Core  
-✅ 3 interconnected models:
-- 👤 Proprietaire → multiple Restaurants
-- 🍽️ Restaurant → multiple Avis (Reviews)
-
-✅ Full CRUD functionality (Create, Read, Update, Delete)  
-✅ Bootstrap 5 blue theme (Flatly) for a modern UI  
-✅ LINQ join queries and custom views:
-- View all Avis per Restaurant
-- Filter Avis by Restaurant
-- Show Restaurants with average note ≥ 3.5
+> 🧪 Developed as part of **TP5** — ENISo IA2 ASP.NET Core MVC course  
+> 👨‍🏫 Professors: Naoufel KHAYATI, Imen KHADHRAOUI, Hamza GBADA
 
 ---
 
-## 🗂️ Project Structure
+## 📁 Project Structure
 
 ```
-RestoManager/
+TP5/
+├── Controllers/
+│   ├── AvisController.cs
+│   ├── ProprietairesController.cs
+│   └── RestaurantsController.cs
+│
 ├── Models/
 │   └── RestosModel/
+│       ├── Avis.cs
 │       ├── Proprietaire.cs
 │       ├── Restaurant.cs
-│       └── Avis.cs
-├── Controllers/
-│   ├── ProprietairesController.cs
-│   ├── RestaurantsController.cs
-│   └── AvisController.cs
+│       ├── RestosDbContext.cs
+│       └── RestosDbContextFactory.cs
+│
+├── Migrations/
+│   └── [Entity Framework Migration Files]
+│
 ├── Views/
+│   ├── Avis/
+│   │   ├── AvisParRestaurant.cshtml
+│   │   ├── Create.cshtml
+│   │   ├── Delete.cshtml
+│   │   ├── Details.cshtml
+│   │   ├── Edit.cshtml
+│   │   └── Index.cshtml
+│   │
 │   ├── Proprietaires/
+│   │   ├── Create.cshtml
+│   │   ├── Delete.cshtml
+│   │   ├── Details.cshtml
+│   │   ├── Edit.cshtml
+│   │   └── Index.cshtml
+│   │
 │   ├── Restaurants/
-│   └── Avis/
-├── Data/
-│   └── RestosDbContext.cs
+│   │   ├── Create.cshtml
+│   │   ├── Delete.cshtml
+│   │   ├── Details.cshtml
+│   │   ├── Edit.cshtml
+│   │   ├── Index.cshtml
+│   │   ├── TopRated.cshtml
+│   │   └── DetailsWithAvis.cshtml
+│   │
+│   └── Shared/
+│       ├── _Layout.cshtml
+│       └── _ValidationScriptsPartial.cshtml
+│
+├── wwwroot/
 ├── appsettings.json
-└── Program.cs
+├── Program.cs
+└── .gitignore
 ```
+
+---
+
+## 🌐 Features
+
+✅ Code First with Fluent API  
+✅ Data modeling with 3 entities:
+- `Proprietaire` → owns one or more `Restaurant`s  
+- `Restaurant` → receives multiple `Avis` (reviews)
+
+✅ Entity relationships configured manually (no conventions)  
+✅ LINQ join queries:
+- View all Avis for a restaurant
+- Filter Avis by restaurant (by ID)
+- List restaurants with average note ≥ 3.5
+
+✅ Full CRUD operations for all entities  
+✅ Styled UI with Bootstrap 5 (Flatly theme)  
+✅ Dropdowns for foreign key selection (e.g. Restaurant → Proprietaire)
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Tool                     | Description                           |
-|--------------------------|---------------------------------------|
-| ASP.NET Core MVC         | Web application framework             |
-| Entity Framework Core    | ORM for database interaction          |
-| Code First + Fluent API  | Model-to-DB mapping                   |
-| SQL Server LocalDB       | Development database                  |
-| Bootstrap (Flatly theme) | UI styling                            |
-| LINQ                     | Data querying                         |
+| Tech                  | Description                           |
+|-----------------------|---------------------------------------|
+| ASP.NET Core MVC      | Web application framework             |
+| Entity Framework Core | Code First + Fluent API + Migrations |
+| SQL Server LocalDB    | Database engine                       |
+| Bootstrap 5 (Flatly)  | UI styling and layout                 |
+| LINQ                  | Querying relational data              |
 
 ---
 
-## 🚀 How to Run It Locally
+## 🚀 How to Run the App Locally
 
-1. **Clone the repository**:
+1. **Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RestoManager.git
-cd RestoManager
+git clone https://github.com/YOUR_USERNAME/RestoManager_TP5.git
+cd RestoManager_TP5
 ```
 
-2. **Open in Visual Studio**
+2. **Open the solution in Visual Studio**
 
-3. **Apply migrations to create the database**:
+3. **Apply EF Core migrations**
 
-```
-Tools > NuGet Package Manager > Package Manager Console
-
-PM> Update-Database
-```
-
-4. **Run the app**:
-
-```
-Ctrl + F5 (Start Without Debugging)
+```bash
+# In NuGet Package Manager Console:
+Update-Database
 ```
 
-5. The browser should open to:
+4. **Run the app**
+
+```bash
+Ctrl + F5  # Start without debugging
 ```
-https://localhost:PORT/Proprietaires
-```
+
+📌 The app will start on:  
+`https://localhost:PORT/Proprietaires` (default controller)
 
 ---
 
-## 🎥 Demo Screenshots
+## 📸 Screenshots (Optional)
 
-📌 _Add screenshots of your Restaurant Index page, Create/Edit forms, and Join Query Views._
+Add screenshots of these pages:
+
+- ✅ Restaurant Index View (styled)
+- ✅ Proprietaire CRUD pages
+- ✅ TopRated view (average note ≥ 3.5)
+- ✅ DetailsWithAvis / AvisParRestaurant
+
+You can add them like:
+
+```markdown
+### 🖼️ Restaurant List Page
+
+![Restaurant Index](screenshots/restaurant-index.png)
+```
 
 ---
 
 ## 📚 Academic Context
 
-This project was created as a part of:
-> 📘 TP n°5 – ASP.NET Core MVC  
-> **ENISo – IA2**  
-> Professors: *Naoufel KHAYATI / Imen KHADHRAOUI / Hamza GBADA*
+This project was developed as part of:
+
+> **TP n°5 – ASP.NET Core MVC**  
+> ENISo – IA2  
+> Professors: Naoufel KHAYATI / Imen KHADHRAOUI / Hamza GBADA
 
 ---
 
-## 📦 Optional Improvements
+## ✨ Optional Improvements
 
-- [ ] Add authentication (login/logout)
-- [ ] Add search/filter by Ville or Note
-- [ ] Export tables to PDF or Excel
-- [ ] Add restaurant images or logos
-- [ ] Improve mobile responsiveness
+- [ ] Add search/filter by Ville, Nom, or Note  
+- [ ] Add authentication (Admin Login)  
+- [ ] Add image upload for restaurants  
+- [ ] Export tables to PDF or Excel  
+- [ ] Make it mobile responsive
 
 ---
 
-## 🧑‍💻 Author
+## 👨‍💻 Author
 
-👨‍🎓 Made with ❤️ by **[Your Name Here]**
+Made with ❤️ by **[Your Full Name Here]**
+
+🔗 GitHub: [github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)
 
 ---
 
 ## 📄 License
 
-This project is for academic use only.
+This repo is for educational purposes only.
 ```
 
