@@ -125,22 +125,3 @@ Ctrl + F5  # Start without debugging
 
 ---
 
-## 📸 Screenshots (Optional)
-
-Add screenshots of these pages:
-
-- ✅ Restaurant Index View (styled)
-- ✅ Proprietaire CRUD pages
-- ✅ TopRated view (average note ≥ 3.5)
-- ✅ DetailsWithAvis / AvisParRestaurant
-
-You can add them like:
-
-```markdown
-### 🖼️ Restaurant List Page
-
-![Restaurant Index](screenshots/restaurant-index.png)
-```
-
----
-
