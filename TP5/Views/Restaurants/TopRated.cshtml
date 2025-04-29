@@ -1,0 +1,36 @@
+﻿@model IEnumerable<RestoManager_YourName.Models.RestosModel.Restaurant>
+
+@{
+    ViewData["Title"] = "Restaurants bien notés";
+}
+
+<h2>Restaurants avec note moyenne ≥ 3.5</h2>
+
+@if (!Model.Any())
+{
+    <p>Aucun restaurant trouvé avec cette note minimale.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Ville</th>
+                <th>Spécialité</th>
+                <th>Propriétaire</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var resto in Model)
+            {
+                <tr>
+                    <td>@resto.NomResto</td>
+                    <td>@resto.Ville</td>
+                    <td>@resto.Specialite</td>
+                    <td>@resto.LeProprio?.Nom</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

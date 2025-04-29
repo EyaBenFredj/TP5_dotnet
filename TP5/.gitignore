@@ -1,0 +1,32 @@
+bin/
+obj/
+
+# User-specific files
+.vs/
+*.user
+*.suo
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# ASP.NET Core secrets
+secrets.json
+
+# Database migrations (optional)
+*.mdf
+*.ldf
+
+
+
+# Publish output
+wwwroot/
+dist/
+node_modules/
+
+# OS-specific
+.DS_Store
+Thumbs.db

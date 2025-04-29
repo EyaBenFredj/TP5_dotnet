@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eyabe\\source\\repos\\TP5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\views\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\views\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\views\\restaurants\\toprated.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\views\\restaurants\\toprated.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\views\\avis\\avisparrestaurant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\views\\avis\\avisparrestaurant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\controllers\\aviscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\controllers\\aviscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\views\\restaurants\\detailswithavis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\views\\restaurants\\detailswithavis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\views\\restaurants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\views\\restaurants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\controllers\\proprietairescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\controllers\\proprietairescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Migrations\\20250429161715_AddAvisEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TP5\\Migrations\\20250429161715_AddAvisEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\models\\restosmodel\\avis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\models\\restosmodel\\avis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\models\\restosmodel\\restosdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\models\\restosmodel\\restosdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\models\\restosmodel\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\models\\restosmodel\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\models\\restosmodel\\proprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\models\\restosmodel\\proprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|c:\\users\\eyabe\\source\\repos\\tp5\\tp5\\models\\restosmodel\\restosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FE13B7-DB88-4D32-889B-D9860D476DC3}|TP5\\TP5.csproj|solutionrelative:tp5\\models\\restosmodel\\restosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TP5\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TP5\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T17:09:49.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Restaurants\\Index.cshtml",
+              "RelativeDocumentMoniker": "TP5\\Views\\Restaurants\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Restaurants\\Index.cshtml",
+              "RelativeToolTip": "TP5\\Views\\Restaurants\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T17:05:37.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TopRated.cshtml",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Restaurants\\TopRated.cshtml",
+              "RelativeDocumentMoniker": "TP5\\Views\\Restaurants\\TopRated.cshtml",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Restaurants\\TopRated.cshtml",
+              "RelativeToolTip": "TP5\\Views\\Restaurants\\TopRated.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T17:05:00.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AvisParRestaurant.cshtml",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Avis\\AvisParRestaurant.cshtml",
+              "RelativeDocumentMoniker": "TP5\\Views\\Avis\\AvisParRestaurant.cshtml",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Avis\\AvisParRestaurant.cshtml",
+              "RelativeToolTip": "TP5\\Views\\Avis\\AvisParRestaurant.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T17:03:06.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetailsWithAvis.cshtml",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Restaurants\\DetailsWithAvis.cshtml",
+              "RelativeDocumentMoniker": "TP5\\Views\\Restaurants\\DetailsWithAvis.cshtml",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Restaurants\\DetailsWithAvis.cshtml",
+              "RelativeToolTip": "TP5\\Views\\Restaurants\\DetailsWithAvis.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T17:01:56.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Restaurants\\Create.cshtml",
+              "RelativeDocumentMoniker": "TP5\\Views\\Restaurants\\Create.cshtml",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Views\\Restaurants\\Create.cshtml",
+              "RelativeToolTip": "TP5\\Views\\Restaurants\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:57:44.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestaurantsController.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Controllers\\RestaurantsController.cs",
+              "RelativeDocumentMoniker": "TP5\\Controllers\\RestaurantsController.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Controllers\\RestaurantsController.cs",
+              "RelativeToolTip": "TP5\\Controllers\\RestaurantsController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAgwI4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:44:44.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProprietairesController.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Controllers\\ProprietairesController.cs",
+              "RelativeDocumentMoniker": "TP5\\Controllers\\ProprietairesController.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Controllers\\ProprietairesController.cs",
+              "RelativeToolTip": "TP5\\Controllers\\ProprietairesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:43:44.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AvisController.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Controllers\\AvisController.cs",
+              "RelativeDocumentMoniker": "TP5\\Controllers\\AvisController.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Controllers\\AvisController.cs",
+              "RelativeToolTip": "TP5\\Controllers\\AvisController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAgwKAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:41:00.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250429161715_AddAvisEntity.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Migrations\\20250429161715_AddAvisEntity.cs",
+              "RelativeDocumentMoniker": "TP5\\Migrations\\20250429161715_AddAvisEntity.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Migrations\\20250429161715_AddAvisEntity.cs",
+              "RelativeToolTip": "TP5\\Migrations\\20250429161715_AddAvisEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:17:15.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Avis.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\Avis.cs",
+              "RelativeDocumentMoniker": "TP5\\Models\\RestosModel\\Avis.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\Avis.cs",
+              "RelativeToolTip": "TP5\\Models\\RestosModel\\Avis.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:07:56.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Program.cs",
+              "RelativeDocumentMoniker": "TP5\\Program.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Program.cs",
+              "RelativeToolTip": "TP5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:04:39.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RestosDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\RestosDbContextFactory.cs",
+              "RelativeDocumentMoniker": "TP5\\Models\\RestosModel\\RestosDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\RestosDbContextFactory.cs",
+              "RelativeToolTip": "TP5\\Models\\RestosModel\\RestosDbContextFactory.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:15:12.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\appsettings.json",
+              "RelativeDocumentMoniker": "TP5\\appsettings.json",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\appsettings.json",
+              "RelativeToolTip": "TP5\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T16:03:56.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RestosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\RestosDbContext.cs",
+              "RelativeDocumentMoniker": "TP5\\Models\\RestosModel\\RestosDbContext.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\RestosDbContext.cs",
+              "RelativeToolTip": "TP5\\Models\\RestosModel\\RestosDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:03:17.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\Restaurant.cs",
+              "RelativeDocumentMoniker": "TP5\\Models\\RestosModel\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\Restaurant.cs",
+              "RelativeToolTip": "TP5\\Models\\RestosModel\\Restaurant.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:02:28.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Proprietaire.cs",
+              "DocumentMoniker": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\Proprietaire.cs",
+              "RelativeDocumentMoniker": "TP5\\Models\\RestosModel\\Proprietaire.cs",
+              "ToolTip": "C:\\Users\\eyabe\\source\\repos\\TP5\\TP5\\Models\\RestosModel\\Proprietaire.cs",
+              "RelativeToolTip": "TP5\\Models\\RestosModel\\Proprietaire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:01:48.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

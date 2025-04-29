@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Proprietaires" asp-action="Index">Propriétaires</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Restaurants" asp-action="Index">Restaurants</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Avis" asp-action="Index">Avis</a>
+            </li>
+        </ul>
+    </div>
+    <footer class="bg-primary text-white text-center py-3 mt-5">
+        &copy; @DateTime.Now.Year - RestoManager by You 💙
+    </footer>
+</body>
+</html>
+

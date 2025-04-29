@@ -1,0 +1,43 @@
+﻿@model IEnumerable<RestoManager_YourName.Models.RestosModel.Restaurant>
+
+@{
+    ViewData["Title"] = "Liste des Restaurants";
+}
+
+<h2 class="text-center text-primary mb-4">🍽️ Liste des Restaurants</h2>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <a asp-action="Create" class="btn btn-primary">➕ Ajouter un Restaurant</a>
+    <a asp-action="TopRated" class="btn btn-success">🌟 Restaurants bien notés (≥ 3.5)</a>
+</div>
+
+<table class="table table-bordered table-striped table-hover shadow-sm">
+    <thead class="table-primary">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.NomResto)</th>
+            <th>@Html.DisplayNameFor(model => model.Specialite)</th>
+            <th>@Html.DisplayNameFor(model => model.Ville)</th>
+            <th>@Html.DisplayNameFor(model => model.Tel)</th>
+            <th>Propriétaire</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.NomResto)</td>
+                <td>@Html.DisplayFor(modelItem => item.Specialite)</td>
+                <td>@Html.DisplayFor(modelItem => item.Ville)</td>
+                <td>@Html.DisplayFor(modelItem => item.Tel)</td>
+                <td>@item.LeProprio?.Nom ?? "Non défini"</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CodeResto" class="btn btn-sm btn-warning">✏️ Modifier</a>
+                    <a asp-action="Details" asp-route-id="@item.CodeResto" class="btn btn-sm btn-info">🔍 Détails</a>
+                    <a asp-action="Delete" asp-route-id="@item.CodeResto" class="btn btn-sm btn-danger">🗑️ Supprimer</a>
+                    <a asp-action="DetailsWithAvis" asp-route-id="@item.CodeResto" class="btn btn-sm btn-outline-primary mt-2">🗨️ Voir Avis</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
